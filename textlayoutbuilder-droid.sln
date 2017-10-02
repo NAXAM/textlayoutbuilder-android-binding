@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.StaticLayoutProxy.Droid", "Naxam.StaticLayoutProxy.Droid\Naxam.StaticLayoutProxy.Droid.csproj", "{76A9E647-935D-45AD-AF74-ECF79F90B209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.TextLayoutBuilder.Droid", "Naxam.TextLayoutBuilder.Droid\Naxam.TextLayoutBuilder.Droid.csproj", "{B9155280-3B27-4BAA-BA87-CEF9100065AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76A9E647-935D-45AD-AF74-ECF79F90B209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A9E647-935D-45AD-AF74-ECF79F90B209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A9E647-935D-45AD-AF74-ECF79F90B209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A9E647-935D-45AD-AF74-ECF79F90B209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9155280-3B27-4BAA-BA87-CEF9100065AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9155280-3B27-4BAA-BA87-CEF9100065AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9155280-3B27-4BAA-BA87-CEF9100065AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9155280-3B27-4BAA-BA87-CEF9100065AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
