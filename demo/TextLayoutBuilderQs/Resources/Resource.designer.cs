@@ -1838,7 +1838,7 @@ namespace TextLayoutBuilderQs
 			public const int multiply = 2131427347;
 			
 			// aapt resource value: 0x7f0b0056
-			public const int myButton = 2131427414;
+			public const int myView = 2131427414;
 			
 			// aapt resource value: 0x7f0b0020
 			public const int never = 2131427360;
@@ -4623,6 +4623,52 @@ namespace TextLayoutBuilderQs
 			
 			// aapt resource value: 9
 			public const int TextAppearance_textAllCaps = 9;
+			
+			public static int[] TextStyle = new int[] {
+					16842804,
+					16842901,
+					16842903,
+					16842904,
+					16842923,
+					16843091,
+					16843101,
+					16843105,
+					16843106,
+					16843107,
+					16843108};
+			
+			// aapt resource value: 4
+			public const int TextStyle_android_ellipsize = 4;
+			
+			// aapt resource value: 5
+			public const int TextStyle_android_maxLines = 5;
+			
+			// aapt resource value: 7
+			public const int TextStyle_android_shadowColor = 7;
+			
+			// aapt resource value: 8
+			public const int TextStyle_android_shadowDx = 8;
+			
+			// aapt resource value: 9
+			public const int TextStyle_android_shadowDy = 9;
+			
+			// aapt resource value: 10
+			public const int TextStyle_android_shadowRadius = 10;
+			
+			// aapt resource value: 6
+			public const int TextStyle_android_singleLine = 6;
+			
+			// aapt resource value: 0
+			public const int TextStyle_android_textAppearance = 0;
+			
+			// aapt resource value: 3
+			public const int TextStyle_android_textColor = 3;
+			
+			// aapt resource value: 1
+			public const int TextStyle_android_textSize = 1;
+			
+			// aapt resource value: 2
+			public const int TextStyle_android_textStyle = 2;
 			
 			public static int[] Toolbar = new int[] {
 					16842927,

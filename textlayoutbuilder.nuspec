@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.TextLayoutBuilder.Droid</id>
+        <version>1.1.0</version>
+        <authors>NAXAM CO.,LTD</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - TextLayoutBuilder for Android</title>
+        <summary>Xamarin.Android Binding Library - TextLayoutBuilder for Android</summary>
+        <description>Xamarin.Android Binding Library - TextLayoutBuilder for Android</description>
+        <releaseNotes>TextLayoutBuilder for Android v1.1.0</releaseNotes>
+        <iconUrl>https://facebookincubator.github.io/TextLayoutBuilder/logo.png</iconUrl>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/textlayoutbuilder-android-binding/</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>xamarin, Xamarin.Android, textlayoutbuilder, text-layout-builder</tags>
+        <dependencies>
+            <!-- <dependency id="Xamarin.Android.Support.v7.AppCompat" version="25.4.0.2" /> -->
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.TextLayoutBuilder.Droid/bin/Release/Naxam.TextLayoutBuilder.Droid.dll" target="lib/MonoAndroid10/Naxam.TextLayoutBuilder.Droid.dll" />
+        <file src="Naxam.StaticLayoutProxy.Droid/bin/Release/Naxam.StaticLayoutProxy.Droid.dll" target="lib/MonoAndroid10/Naxam.StaticLayoutProxy.Droid.dll" />
+    </files>
+</package>

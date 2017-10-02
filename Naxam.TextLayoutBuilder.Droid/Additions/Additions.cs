@@ -1,10 +1,15 @@
 ﻿using System;
-namespace Naxam.TextLayoutBuilder.Droid.Additions
+namespace Naxam.Textlayoutbuilder.Droid
 {
-    public class Additions
+    using Android.Content;
+    using Com.Facebook.Fbui.Textlayoutbuilder;
+
+    public static class TextLayoutBuilderExtensions
     {
-        public Additions()
-        {
+        public static TextLayoutBuilder SetTextAppearance(this TextLayoutBuilder builder, Context context, int resId){
+            ResourceTextLayoutHelper.SetTextAppearance(builder, context, resId);
+
+            return builder;
         }
     }
 }

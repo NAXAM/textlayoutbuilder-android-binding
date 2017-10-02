@@ -4,9 +4,8 @@
 	android:orientation="vertical"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent">
-	<Button
-		android:id="@+id/myButton"
+	<net.naxam.CustomView
+		android:id="@+id/myView"
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:text="@string/hello" />
+		android:layout_height="match_parent" />
 </LinearLayout>
