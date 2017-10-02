@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.StaticLayoutProxy.Dro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.TextLayoutBuilder.Droid", "Naxam.TextLayoutBuilder.Droid\Naxam.TextLayoutBuilder.Droid.csproj", "{B9155280-3B27-4BAA-BA87-CEF9100065AD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{F741489D-6655-4937-BBD6-4EA34D6A025C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextLayoutBuilderQs", "demo\TextLayoutBuilderQs\TextLayoutBuilderQs.csproj", "{7BE2DD13-63C5-4B5F-A12C-449D285F1384}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +23,12 @@ Global
 		{B9155280-3B27-4BAA-BA87-CEF9100065AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9155280-3B27-4BAA-BA87-CEF9100065AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9155280-3B27-4BAA-BA87-CEF9100065AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE2DD13-63C5-4B5F-A12C-449D285F1384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE2DD13-63C5-4B5F-A12C-449D285F1384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE2DD13-63C5-4B5F-A12C-449D285F1384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE2DD13-63C5-4B5F-A12C-449D285F1384}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BE2DD13-63C5-4B5F-A12C-449D285F1384} = {F741489D-6655-4937-BBD6-4EA34D6A025C}
 	EndGlobalSection
 EndGlobal
