@@ -15,7 +15,7 @@ We specialize in developing mobile applications using Xamarin and native technol
 ## Install
 
 ```
-Install-Package Naxam.Applozic.Droid
+Install-Package Naxam.TextLayoutBuilder.Droid
 ```
 
 ## Usage
